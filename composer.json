@@ -1,0 +1,19 @@
+{
+    "name": "tutorial/module-dog",
+    "description": "A Dog module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [],
+    "require": {
+        "php": "~8.1.0",
+        "magento/framework": ">=103.0.5-p1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Tutorial\\Dog\\": ""
+        }
+    }
+}
